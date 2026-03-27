@@ -30,12 +30,12 @@ public class Bus extends Vehicle{
 		
 		
 	}
-	public Bus() {
+	public Bus () {
 		super();
 		setTitle("opel");
 		setVehicleCode();
 		setnumberOfSeats(10);
-		sethasBaggageDivision(2);
+		sethasBaggageDivision(23);
 		
 		
 	}
@@ -46,6 +46,14 @@ public Bus (String inputtitle, float inputPrice, EnergyType inputEType, int inpu
 	super (inputtitle, inputPrice, inputEType);
 	setnumberOfSeats(inputNumberOfSeats);
 	sethasBaggageDivision(inputBaggageDivision);
+}
+
+public String toString() {
+	String result = super.toString() + " "+numberOfSeats + 
+		" " + hasBaggageDivision;
+	return result;
+	
+	
 }
 	}
 

@@ -43,7 +43,7 @@ public class Vehicle {
 		}
 		else
 		{
-			title = "Unknown";
+			title = "Unkown";
 		}
 	}
 	
