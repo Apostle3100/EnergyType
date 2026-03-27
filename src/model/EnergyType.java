@@ -1,5 +1,5 @@
 package model;
 
 public enum EnergyType {
-	gas, petrol, other
+	gas, petrol, other, not_specified;
 }
